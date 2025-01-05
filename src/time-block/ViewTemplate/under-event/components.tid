@@ -1,0 +1,49 @@
+title: $:/plugins/mabuqian/time-block/ViewTemplate/under-event/components
+tags: $:/tags/ViewTemplate
+list-before: $:/core/ui/ViewTemplate/body
+
+\import  [[$:/plugins/mabuqian/time-block/view-template/under-event/components/buttons]] [[$:/plugins/mabuqian/time-block/main/components/buttons]] [[$:/plugins/mabuqian/time-block/view-template/under-event/components/select-edit-specific]]
+
+<$list filter="[<currentTiddler>time_form[events]!prefix[$:/]]">
+<div class="tp-sidebar-project-list-item" >
+<$list filter="[<currentTiddler>tags[]tagging[]] +[has[time_end]sort[time_end]last[1]]">
+最后一件事：&nbsp;<$link><<currentTiddler>></$link>&nbsp;&nbsp;{{!!time_end}}&nbsp;&nbsp;
+</$list>
+<<set-time-start>>&nbsp;&nbsp;
+<<set-time-end>>&nbsp;&nbsp;
+<<set-time-end-start>>&nbsp;&nbsp;
+<<set-time-start-end>>&nbsp;&nbsp;
+</div>
+
+<div class="flex-row">
+  <div class="flex-col">
+   <$transclude tiddler="$:/plugins/mabuqian/time-block/view-template/under-event/components/time-picker" mode="block"/>
+  </div>
+  <div class="flex-col">
+   <div class="flex-row">
+    <div class="flex-col">
+     <div class="tp-sidebar-project-list-item" >
+     <<empty-major>>&nbsp;&nbsp;
+     <<empty-specific>>&nbsp;&nbsp;
+     <<empty-detail>>&nbsp;&nbsp;
+     </div>
+     <div class="tp-sidebar-project-list-item" >
+      <<create-events-under-event>>&nbsp;&nbsp;
+      <<create-events-specific-under-event>>&nbsp;&nbsp;
+      <<create-events-detail-under-event>>&nbsp;&nbsp;
+     </div>
+    <div class="flex-col">
+     <$transclude tiddler="$:/plugins/mabuqian/time-block/main/new-button" mode="block"/>
+    </div>
+    </div>
+   </div>
+  </div>
+</div>
+
+<details>
+  <summary>添加其他内容</summary>
+
+<<tabs "[all[tiddlers+shadows]tag[$:/tags/TP/under-event]]" "$:/plugins/mabuqian/time-block/view-template/under-event/components/time-picker" "$:/state/tp/under-event" >>
+
+</details>
+</$list>

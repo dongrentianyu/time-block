@@ -1,0 +1,11 @@
+title: $:/plugins/mabuqian/time-block/Cascade/IconCascade
+tags: $:/tags/TiddlerIconFilter
+list-before: $:/config/TiddlerIconFilters/default
+
+[time_form[events]then[$:/plugins/mabuqian/time-block/image/event]]
+[time_form[days]then[$:/plugins/mabuqian/time-block/image/day]]
+[time_form[weeks]then[$:/plugins/mabuqian/time-block/image/week]]
+[time_form[months]then[$:/plugins/mabuqian/time-block/image/month]]
+[time_form[years]then[$:/plugins/mabuqian/time-block/image/year]]
+[time_form[detail]then[$:/plugins/mabuqian/time-block/image/detail]]
+[time_form[specific]then[$:/plugins/mabuqian/time-block/image/specific]]

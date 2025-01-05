@@ -1,0 +1,21 @@
+title: $:/plugins/mabuqian/time-block/ControlPanel/Settings
+caption: Time Prints
+tags: $:/tags/ControlPanel/SettingsTab $:/tags/TP/main/display-others
+
+在下面填写对应项目的值，在新建条目时可以进行选择
+
+[[生活|$:/plugins/mabuqian/time-block/Config/life-specific]]：<$edit-text tiddler="$:/plugins/mabuqian/time-block/Config/life-specific" field="text" tag=input class="w-100" />
+
+[[学习|$:/plugins/mabuqian/time-block/Config/study-specific]]：<$edit-text tiddler="$:/plugins/mabuqian/time-block/Config/study-specific" field="text" tag=input class="w-100" />
+
+[[娱乐|$:/plugins/mabuqian/time-block/Config/amusement-specific]]：<$edit-text tiddler="$:/plugins/mabuqian/time-block/Config/amusement-specific" field="text" tag=input class="w-100" />
+
+[[活动|$:/plugins/mabuqian/time-block/Config/activites-specific]]：<$edit-text tiddler="$:/plugins/mabuqian/time-block/Config/activites-specific" field="text" tag=input class="w-100" />
+
+[[工作|$:/plugins/mabuqian/time-block/Config/working-specific]]：<$edit-text tiddler="$:/plugins/mabuqian/time-block/Config/working-specific" field="text" tag=input class="w-100" />
+
+[[常用配置|$:/plugins/mabuqian/time-block/Config/time-detail]]：<$edit-text tiddler="$:/plugins/mabuqian/time-block/Config/time-detail" field="text" tag=input class="w-100" />
+
+[[最多列出项|$:/plugins/mabuqian/time-block/Config/last-number]]：<$edit-text tiddler="$:/plugins/mabuqian/time-block/Config/last-number" field="text" tag=input class="w-100" />
+
+[[Details最多保留时间，需要为负数|$:/plugins/mabuqian/time-block/Config/last-detail-display-days]]：<$edit-text tiddler="$:/plugins/mabuqian/time-block/Config/last-detail-display-days" field="text" tag=input class="w-100" />

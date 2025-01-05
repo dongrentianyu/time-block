@@ -1,10 +1,23 @@
 {
   "title": "$:/plugins/mabuqian/time-block",
-  "author": "Your Name",
-  "description": "Description of this plugin",
-  "core-version": ">=5.1.22",
+  "name": "Time Prints",
+  "author": "mabuqian",
+  "description": "print time",
+  "type": "application/json",
+  "core-version": ">=5.2.0",
   "plugin-type": "plugin",
-  "version": "0.0.1",
-  "stability": "STABILITY_1_EXPERIMENTAL",
-  "list": "readme config tree"
+  "version": "0.3.10",
+  "dependents": [
+    "$:/plugins/kookma/shiraz",
+    "$:/plugins/yaisog/taggingtree-filter",
+    "$:/plugins/yaisog/tagstree-filter",
+    "$:/plugins/linonetwo/in-tagtree-of",
+    "$:/plugins/Gk0Wk/echarts",
+    "$:/plugins/linonetwo/super-tag",
+    "$:/plugins/xp/aggregation",
+    "$:/plugins/mabuqian/gumo-customisation",
+    "$:/plugins/sukima/reveal-js",
+    "$:/plugins/kookma/utility"
+  ],
+  "list": "readme ControlPanel/Settings"
 }

@@ -1,0 +1,27 @@
+title: $:/plugins/mabuqian/time-block/ViewTemplate/under-detail/line-chart-addon
+
+<$let 
+graphRootTiddler=<<currentTiddler>>
+>
+
+{
+  "xAxis": {
+    "type": "category",
+    "data": [<$list filter="[time_detail<graphRootTiddler>each[time_day]get[time_day]unique[]]">'<<currentTiddler>>', </$list>]
+  },
+  "yAxis": {
+    "type": "value"
+  },
+  "series": [
+    {
+      "data": [<$list filter="[time_detail<graphRootTiddler>each[time_day]get[time_day]unique[]]"  variable="this_day"><$list filter="[time_detail<graphRootTiddler>time_day<this_day>get[time_spent]sum[]]"  variable="this_sum">'<<this_sum>>', </$list></$list>],
+      "type": "line",
+			 "type": "line",
+			 "label": {
+        "show": "true",
+        "position": 'top'
+      }
+    }
+  ]
+}
+</$let>

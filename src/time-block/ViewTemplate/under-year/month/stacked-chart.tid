@@ -1,0 +1,5 @@
+title: $:/plugins/mabuqian/time-block/ViewTemplate/under-year/month/stacked-chart
+caption: <<doc-svg "$:/plugins/mabuqian/time-block/image/stacked-bar-chart" "#2d2e36">> 堆叠
+tags: $:/tags/TP/under-year
+
+<$echarts $tiddler="$:/plugins/mabuqian/time-block/ViewTemplate/under-year/month/stacked-chart/addon" currentTiddler=<<currentTiddler>> $height="500px"/>

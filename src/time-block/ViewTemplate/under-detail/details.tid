@@ -1,0 +1,13 @@
+title: $:/plugins/mabuqian/time-block/ViewTemplate/under-detail/datails
+caption: <<doc-svg "$:/plugins/mabuqian/time-block/image/list-details" "#2d2e36">> 列出
+tags: $:/tags/TP/under-detail
+
+<div class="flex-row">
+<$list filter="[time_detail<currentTiddler>each[time_day]get[time_day]unique[]]" variable="this_day">
+<$list filter="[time_detail<currentTiddler>time_day<this_day>get[time_spent]sum[]]" variable="this_sum">
+
+<$link><<this_day>></$link>&nbsp;&nbsp;<<this_sum>>&nbsp;&nbsp;
+
+</$list>
+</$list>
+</div>

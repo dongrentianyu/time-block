@@ -1,0 +1,42 @@
+title: $:/plugins/mabuqian/time-block/view-template/under-day/components/buttons
+
+\define create-events-specific-under-day()
+<$button class="tc-btn-invisible tft-rpqn-common" tooltip="快速创建事件">
+    <$action-createtiddler
+      $basetitle={{{ [[$:/state/select-filter-search/tp-time_specific]get[text]] }}}
+      super-tag="time"
+      time_form="events" 
+      time_major={{{ [[$:/state/select-field-search/tp-time_major]get[text]] [[生活]] +[first[]] }}}
+	    time_specific={{{ [[$:/state/select-filter-search/tp-time_specific]get[text]] }}}
+      time_record="正常记录"
+      time_day=<<currentTiddler>>
+      tags=<<currentTiddler>>
+      time_start={{{[tag<currentTiddler>has[time_end]sort[time_end]last[1]get[time_end]] }}}
+      time_end=<<now "0hh:0mm" >>
+     >
+     <<after-create-tiddler-without-parent>>
+     </$action-createtiddler>
+     <<doc-svg "$:/plugins/mabuqian/time-block/image/event" "#2d2e36">> specific
+</$button>
+\end
+
+\define create-events-detail-under-day()
+<$button class="tc-btn-invisible tft-rpqn-common" tooltip="快速创建事件">
+    <$action-createtiddler
+      $basetitle={{{ [[$:/state/select-filter-search/tp-time_detail]get[text]] }}}
+      super-tag="time"
+      time_form="events"
+      time_major={{{ [[$:/state/select-field-search/tp-time_major]get[text]] [[生活]] +[first[]] }}}
+	  time_specific={{{ [[$:/state/select-filter-search/tp-time_specific]get[text]] }}}
+      time_detail={{{ [[$:/state/select-filter-search/tp-time_detail]get[text]] }}}
+      time_record="正常记录"
+      time_day=<<currentTiddler>>
+      tags=<<currentTiddler>>
+      time_start={{{ [tag<currentTiddler>has[time_end]sort[time_end]last[1]get[time_end]] }}}
+      time_end=<<now "0hh:0mm" >>
+     >
+     <<after-create-tiddler-without-parent>>
+     </$action-createtiddler>
+     <<doc-svg "$:/plugins/mabuqian/time-block/image/event" "#2d2e36">> detail
+</$button>
+\end

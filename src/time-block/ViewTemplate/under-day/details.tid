@@ -1,0 +1,27 @@
+title: $:/plugins/mabuqian/time-block/ViewTemplate/under-day/datails
+caption: <<doc-svg "$:/plugins/mabuqian/time-block/image/list-details" "#2d2e36">> 列出
+tags: $:/tags/TP/under-day
+
+<$let graphRootTiddler=<<currentTiddler>> >
+
+<$list filter='[tag<currentTiddler>sort[time_major]each[time_major]]'>
+
+!! {{!!time_major}}
+
+<div style="column-count: 4;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: stretch;">
+
+<$list filter='[tag<graphRootTiddler>time_major{!!time_major}]'>
+
+<$link><<currentTiddler>></$link>&nbsp;&nbsp;{{!!time_spent}}
+
+</$list>
+
+</div>
+
+</$list>
+</$let>

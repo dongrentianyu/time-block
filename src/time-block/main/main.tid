@@ -1,0 +1,10 @@
+title: $:/plugins/mabuqian/time-block/main
+caption: TP
+description: time-prints 时间记录
+list-after: $:/core/ui/SideBar/Recent
+tags: $:/tags/SideBar
+type: text/vnd.tiddlywiki
+
+<$transclude tiddler="$:/plugins/mabuqian/time-block/main/components" mode="block"/>
+
+<$transclude tiddler="$:/plugins/mabuqian/time-block/main/display" mode="block"/>

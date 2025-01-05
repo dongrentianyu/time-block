@@ -1,5 +1,7 @@
 title: $:/plugins/mabuqian/time-block/readme
+type: text/vnd.tiddlywiki
 
-\procedure lingo-base() $:/plugins/mabuqian/time-block/language/
+这是一个个人化自定义的时间管理插件，文档还没写好，安装前请备份tiddlywiki。
 
-<<lingo Readme>>
+* code: https://github.com/dongrentianyu/time-prints
+* demo: https://dongrentianyu.github.io/time-prints/

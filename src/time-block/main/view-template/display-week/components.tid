@@ -1,0 +1,5 @@
+title: $:/plugins/mabuqian/time-block/main/display-week/components
+caption: 最近七周
+tags: $:/tags/TP/main/display
+
+<<tabs "[all[tiddlers+shadows]tag[$:/tags/TP/main/display-week]]" "$:/plugins/mabuqian/time-block/main/display-week/counts" "$:/state/tp/display-week">>

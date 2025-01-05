@@ -1,0 +1,25 @@
+title: $:/plugins/mabuqian/time-block/ViewTemplate/under-detail/counts
+caption: <<doc-svg "$:/plugins/mabuqian/time-block/image/analyse" "#2d2e36">> 占比
+tags: $:/tags/TP/under-detail
+
+<$let
+    time_detail_count={{{ [time_detail<currentTiddler>count[]] }}}
+    time_detail_sum={{{ [time_detail<currentTiddler>get[time_spent]sum[]] }}}
+    time_detail_sum_minute={{{ [time_detail<currentTiddler>get[time_spent]sum[]divide[60]round[]] }}}
+    time_detail_average={{{ [time_detail<currentTiddler>get[time_spent]] +[average[]round[]] }}}
+    time_detail_maxall={{{ [time_detail<currentTiddler>get[time_spent]maxall[]] }}}
+    time_detail_maxall_ones_days={{{ [time_detail<currentTiddler>time_spent<time_detail_maxall>] }}}
+    time_detail_minall={{{ [time_detail<currentTiddler>get[time_spent]minall[]] }}}
+    time_detail_minall_ones_days={{{ [time_detail<currentTiddler>time_spent<time_detail_minall>] }}}
+>
+总共：<<time_detail_count>>&nbsp;次
+
+总计：<<time_detail_sum>>&nbsp;分钟；&nbsp;约&nbsp;<<time_detail_sum_minute>>&nbsp;小时；
+
+平均：约<<time_detail_average>>&nbsp;分钟
+
+单次最大值：<$link><<time_detail_maxall_ones_days>></$link>&nbsp;&nbsp;<<time_detail_maxall>>&nbsp;分钟
+
+单次最小值：<$link><<time_detail_minall_ones_days>></$link>&nbsp;&nbsp;<<time_detail_minall>>&nbsp;分钟
+
+</$let>

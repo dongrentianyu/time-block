@@ -1,0 +1,11 @@
+title: $:/plugins/mabuqian/time-block/ViewTemplate/under-day/timeline
+caption: <<doc-svg "$:/plugins/mabuqian/time-block/image/timeline" "#2d2e36">> 时记
+tags: $:/tags/TP/under-day
+
+<div style="column-count: 3;">
+<$list filter="[tag<currentTiddler>sort[time_start]]">
+
+<$transclude $tiddler=<<currentTiddler>> $field="time_start"/>-><$transclude $tiddler=<<currentTiddler>> $field="time_end"/>&nbsp;&nbsp;<$link><<currentTiddler>></$link>&nbsp;&nbsp;<$transclude $tiddler=<<currentTiddler>> $field="time_spent"/>
+
+</$list>
+</div>

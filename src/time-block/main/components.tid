@@ -1,0 +1,58 @@
+title: $:/plugins/mabuqian/time-block/main/components
+
+\import [[$:/plugins/mabuqian/time-block/main/EditTemplate/title]] [[$:/plugins/mabuqian/time-block/main/components/buttons]]
+
+<div class="tp-sidebar-create-task">
+ <<simple-title-edit "$:/state/TP/PageLayout/create-tiddler-title" >>
+</div>
+
+<div class="flex-row">
+ <div class="flex-col">
+  <div class="tp-sidebar-project-list-item" >
+   <<empty-major>>&nbsp;&nbsp;
+   <<empty-specific>>&nbsp;&nbsp;
+   <<empty-detail>>&nbsp;&nbsp;
+  </div>
+  <div class="tp-sidebar-project-list-item" >
+  <<create-events>>&nbsp;&nbsp;
+  <<create-events-specific>>&nbsp;&nbsp;
+  <<create-events-detail>>&nbsp;&nbsp;
+  </div>
+ <div class="flex-col">
+  <$transclude tiddler="$:/plugins/mabuqian/time-block/main/new-button" mode="block"/>
+ </div>
+</div>
+<div class="flex-col">
+<div class="tp-sidebar-project-list-item" >
+<<create-days>>&nbsp;&nbsp;
+<<create-weeks>>&nbsp;&nbsp;
+<<create-months>>&nbsp;&nbsp;
+<<create-years>>&nbsp;&nbsp;
+</div>
+<div class="tp-sidebar-project-list-item" >
+<$edit-text tiddler="$:/state/TP/create-days-select" field="select-now" type="date" />&nbsp;&nbsp;
+<<create-days-select>>&nbsp;&nbsp;
+</div>
+<div class="tp-sidebar-project-list-item" >
+<<create-under-specific>>&nbsp;&nbsp;
+<<create-under-detail>>&nbsp;&nbsp;
+</div>
+</div>
+</div>
+
+<$list filter="[has[time_end]sort[created]last[2]]">
+<$link><<currentTiddler>></$link>&nbsp;&nbsp;{{!!time_day}}&nbsp;&nbsp;{{!!time_end}}&nbsp;&nbsp;
+</$list>
+
+<$let
+years=<<now "YYYY" >>
+year_weeks=<<now "0WW" >>
+year_months=<<now "0MM" >>
+title_year_week={{{ [<year_weeks>addprefix[-]addprefix<years>] }}}
+title_year_month={{{ [<year_months>addprefix[-]addprefix<years>]  }}}
+>
+<$link to=<<now "YYYY-0MM-0DD" >> > <<now "YYYY-0MM-0DD" >> </$link>&nbsp;&nbsp;
+<$link to=<<title_year_week>> > <<title_year_week>> </$link>&nbsp;&nbsp;
+<$link to=<<title_year_month>> > <<title_year_month>> </$link>&nbsp;&nbsp;
+<$link to=<<years>> > <<years>> </$link>&nbsp;&nbsp;
+</$let>

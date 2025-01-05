@@ -1,0 +1,13 @@
+title: $:/plugins/mabuqian/time-block/ViewTemplate/under-week/dynmaic-data-days
+tags: $:/tags/TP/under-week
+caption: <<doc-svg "$:/plugins/mabuqian/time-block/image/list-details" "#2d2e36">> 统计
+
+<$macrocall 
+$name=table-dynamic
+filter="[tag<currentTiddler>has[day_weeks]sort[day_weeks]]"
+class="w-100 thead-secondary table-hover-cyan"
+fields={{$:/plugins/mabuqian/time-block/Config/week-dynamic-table-days}}
+caption=<<now "YYYY-0MM-0DD hh:0mm:0ss">>
+stateTiddler="TP-week-dynamic-table-days-state"
+footerRows="7"
+/>
