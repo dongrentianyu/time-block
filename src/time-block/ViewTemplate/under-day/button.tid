@@ -25,7 +25,7 @@ title: $:/plugins/mabuqian/time-block/view-template/under-day/components/buttons
       time-block="time"
       time_form="events"
       time_major={{{ [[$:/state/select-field-search/tp-time_major]get[text]] [[生活]] +[first[]] }}}
-	  time_specific={{{ [[$:/state/select-filter-search/tp-time_specific]get[text]] }}}
+	    time_specific={{{ [[$:/state/select-filter-search/tp-time_specific]get[text]] }}}
       time_detail={{{ [[$:/state/select-filter-search/tp-time_detail]get[text]] }}}
       time_record="正常记录"
       time_day=<<currentTiddler>>
