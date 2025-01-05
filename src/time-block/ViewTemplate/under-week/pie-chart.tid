@@ -1,5 +1,5 @@
 title: $:/plugins/mabuqian/time-block/ViewTemplate/under-week/pie-chart
-tags: $:/tags/TP/under-week
+tags: $:/tags/TB/under-week
 caption: <<doc-svg "$:/plugins/mabuqian/time-block/image/analyse" "#2d2e36">> 饼图
 
 \define pie-chart-week()

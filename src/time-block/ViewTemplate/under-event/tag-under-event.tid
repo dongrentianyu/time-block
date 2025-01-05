@@ -1,4 +1,4 @@
-title: $:/tags/TP/under-event
+title: $:/tags/TB/under-event
 list: $:/plugins/mabuqian/time-block/view-template/under-event/components/time-picker $:/plugins/mabuqian/time-block/view-template/under-event/components/select-edit-specific
 
 use this tag to display something about events

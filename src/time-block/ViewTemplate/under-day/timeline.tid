@@ -1,6 +1,6 @@
 title: $:/plugins/mabuqian/time-block/ViewTemplate/under-day/timeline
 caption: <<doc-svg "$:/plugins/mabuqian/time-block/image/timeline" "#2d2e36">> 时记
-tags: $:/tags/TP/under-day
+tags: $:/tags/TB/under-day
 
 <div style="column-count: 3;">
 <$list filter="[tag<currentTiddler>sort[time_start]]">

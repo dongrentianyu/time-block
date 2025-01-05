@@ -1,5 +1,5 @@
 title: $:/plugins/mabuqian/time-block/main/display-day/stacked-chart
 caption: <<doc-svg "$:/plugins/mabuqian/time-block/image/stacked-bar-chart" "#2d2e36">> 堆叠
-tags: $:/tags/TP/main/display-day
+tags: $:/tags/TB/main/display-day
 
 <$echarts $tiddler="$:/plugins/mabuqian/time-block/main/display-day/stacked-chart/addon" $height="500px"/>

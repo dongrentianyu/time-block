@@ -27,7 +27,7 @@ list-before: $:/core/ui/ViewTemplate/body
 <details>
 <summary>查看更多内容</summary>
 
-<<tabs "[all[tiddlers+shadows]tag[$:/tags/TP/under-day]]" "$:/plugins/mabuqian/time-block/ViewTemplate/under-day/time-spare" "$:/state/tp/under-day" >>
+<<tabs "[all[tiddlers+shadows]tag[$:/tags/TB/under-day]]" "$:/plugins/mabuqian/time-block/ViewTemplate/under-day/time-spare" "$:/state/tp/under-day" >>
 
 </details>
 </$list>

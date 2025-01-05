@@ -1,6 +1,6 @@
 title: $:/plugins/mabuqian/time-block/ViewTemplate/under-month/counts
 caption: <<doc-svg "$:/plugins/mabuqian/time-block/image/analyse" "#2d2e36">> 占比
-tags: $:/tags/TP/under-month
+tags: $:/tags/TB/under-month
 
 <$let
 	time_month_all={{{ [tag<currentTiddler>has[time_day_all]get[time_day_all]sum[]]  }}}

@@ -1,5 +1,5 @@
 title: $:/plugins/mabuqian/time-block/view-template/under-event/components/select-edit-specific
-tags: $:/tags/TP/under-event
+tags: $:/tags/TB/under-event
 caption: select-edit
 
 \define select-edit-specific()

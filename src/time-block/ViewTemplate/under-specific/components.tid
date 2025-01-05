@@ -7,7 +7,7 @@ list-before: $:/core/ui/ViewTemplate/body
 <details>
 <summary>查看统计内容</summary>
 
-<<tabs "[all[tiddlers+shadows]tag[$:/tags/TP/under-specific]]" "$:/plugins/mabuqian/time-block/ViewTemplate/under-specific/counts" "$:/state/tp/under-specific">>
+<<tabs "[all[tiddlers+shadows]tag[$:/tags/TB/under-specific]]" "$:/plugins/mabuqian/time-block/ViewTemplate/under-specific/counts" "$:/state/tp/under-specific">>
 
 </details>
 </$list>

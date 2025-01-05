@@ -1,5 +1,5 @@
 title: $:/plugins/mabuqian/time-block/view-template/under-event/components/time-picker
-tags: $:/tags/TP/under-event
+tags: $:/tags/TB/under-event
 caption: time-picker
 
 \import [[$:/plugins/mabuqian/time-block/main/time-picker]]

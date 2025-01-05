@@ -1,8 +1,8 @@
 {
   "title": "$:/plugins/mabuqian/time-block",
-  "name": "Time Prints",
+  "name": "Time Block",
   "author": "mabuqian",
-  "description": "print time",
+  "description": "Time Block",
   "type": "application/json",
   "core-version": ">=5.2.0",
   "plugin-type": "plugin",
@@ -13,7 +13,6 @@
     "$:/plugins/yaisog/tagstree-filter",
     "$:/plugins/linonetwo/in-tagtree-of",
     "$:/plugins/Gk0Wk/echarts",
-    "$:/plugins/linonetwo/super-tag",
     "$:/plugins/xp/aggregation",
     "$:/plugins/mabuqian/gumo-customisation",
     "$:/plugins/sukima/reveal-js",

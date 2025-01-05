@@ -1,5 +1,5 @@
 title: $:/plugins/mabuqian/time-block/ViewTemplate/under-year/week/dynmaic-data-weeks
-tags: $:/tags/TP/under-year
+tags: $:/tags/TB/under-year
 caption: <<doc-svg "$:/plugins/mabuqian/time-block/image/list-details" "#2d2e36">> 周计
 
 <$macrocall 

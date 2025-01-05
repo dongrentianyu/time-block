@@ -1,6 +1,6 @@
 title: $:/plugins/mabuqian/time-block/ViewTemplate/under-day/datails
 caption: <<doc-svg "$:/plugins/mabuqian/time-block/image/list-details" "#2d2e36">> 列出
-tags: $:/tags/TP/under-day
+tags: $:/tags/TB/under-day
 
 <$let graphRootTiddler=<<currentTiddler>> >
 

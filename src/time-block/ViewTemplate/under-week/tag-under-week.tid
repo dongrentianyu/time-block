@@ -1,4 +1,4 @@
-title: $:/tags/TP/under-week
+title: $:/tags/TB/under-week
 list: $:/plugins/mabuqian/time-block/ViewTemplate/under-week/counts $:/plugins/mabuqian/time-block/ViewTemplate/under-week/pie-chart $:/plugins/mabuqian/time-block/ViewTemplate/under-week/dynmaic-data-days $:/plugins/mabuqian/time-block/ViewTemplate/under-week/stacked-chart $:/plugins/mabuqian/time-block/ViewTemplate/under-week/dynmaic-data-events
 
 use this tags to display days in the week

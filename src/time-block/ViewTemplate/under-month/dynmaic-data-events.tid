@@ -1,5 +1,5 @@
 title: $:/plugins/mabuqian/time-block/ViewTemplate/under-month/dynmaic-data-events
-tags: $:/tags/TP/under-month
+tags: $:/tags/TB/under-month
 caption: <<doc-svg "$:/plugins/mabuqian/time-block/image/month" "#2d2e36">> 一月
 
 <$macrocall $name=aggregation  filter="[time_form[days]tag<currentTiddler>tagging[]]" defaultFields={{$:/plugins/mabuqian/time-block/Config/month-dynamic-table-events}} class="w-100" state="TP-month-dynamic-table-events-state" />

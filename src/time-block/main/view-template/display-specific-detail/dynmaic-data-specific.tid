@@ -1,5 +1,5 @@
 title: $:/plugins/mabuqian/time-block/main/display-specific-detail/dynmaic-data-specific
-tags: $:/tags/TP/main/display-specific-detail
+tags: $:/tags/TB/main/display-specific-detail
 caption: <<doc-svg "$:/plugins/mabuqian/time-block/image/specific" "#2d2e36">> 总共
 
 <$macrocall $name=aggregation  filter="[time_form[specific]]" defaultFields={{$:/plugins/mabuqian/time-block/Config/display-specific-dynamic-table-events}} class="w-100" state="TP-display-specific-detail-dynamic-table-events-state" />

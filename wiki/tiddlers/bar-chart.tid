@@ -7,7 +7,7 @@ type: text/vnd.tiddlywiki
 
 ```
 title: $:/plugins/mabuqian/time-block/ViewTemplate/under-day/bar-chart
-tags: $:/tags/TP/under-day
+tags: $:/tags/TB/under-day
 caption: bar-chart
 
 \define bar-chart()

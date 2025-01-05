@@ -1,5 +1,5 @@
 title: $:/plugins/mabuqian/time-block/main/display-specific-detail/counts
-tags: $:/tags/TP/main/display-specific-detail
+tags: $:/tags/TB/main/display-specific-detail
 caption: <<doc-svg "$:/plugins/mabuqian/time-block/image/analyse" "#2d2e36">> 统计
 
 <$let

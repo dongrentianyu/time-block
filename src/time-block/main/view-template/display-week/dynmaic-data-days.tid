@@ -1,5 +1,5 @@
 title: $:/plugins/mabuqian/time-block/main/display-week/dynmaic-data-events
-tags: $:/tags/TP/main/display-week
+tags: $:/tags/TB/main/display-week
 caption: <<doc-svg "$:/plugins/mabuqian/time-block/image/week" "#2d2e36">> 49天
 
 <$macrocall 

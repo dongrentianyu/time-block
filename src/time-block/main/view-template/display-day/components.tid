@@ -1,5 +1,5 @@
 title: $:/plugins/mabuqian/time-block/main/display-day/components
 caption: 最近七天
-tags: $:/tags/TP/main/display
+tags: $:/tags/TB/main/display
 
-<<tabs "[all[tiddlers+shadows]tag[$:/tags/TP/main/display-day]]" "$:/plugins/mabuqian/time-block/main/display-day/counts" "$:/state/tp/display-day">>
+<<tabs "[all[tiddlers+shadows]tag[$:/tags/TB/main/display-day]]" "$:/plugins/mabuqian/time-block/main/display-day/counts" "$:/state/tp/display-day">>
