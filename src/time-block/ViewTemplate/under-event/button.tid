@@ -43,7 +43,7 @@ title: $:/plugins/mabuqian/time-block/view-template/under-event/components/butto
 <$button class="tc-btn-invisible tft-rpqn-common" tooltip="点击创建事件，在最后一次时间基础上">
     <$action-createtiddler
       $basetitle={{$:/state/TP/PageLayout/create-tiddler-title}}
-      super-tag="time"
+      time-block="time"
       time_form="events"
       time_major="生活"
 	  time_specific=""
@@ -63,7 +63,7 @@ title: $:/plugins/mabuqian/time-block/view-template/under-event/components/butto
 <$button class="tc-btn-invisible tft-rpqn-common" tooltip="快速创建事件">
     <$action-createtiddler
       $basetitle={{{ [[$:/state/select-filter-search/tp-time_specific]get[text]] }}}
-      super-tag="time"
+      time-block="time"
       time_form="events" 
       time_major={{{ [[$:/state/select-field-search/tp-time_major]get[text]] [[生活]] +[first[]] }}}
 	    time_specific={{{ [[$:/state/select-filter-search/tp-time_specific]get[text]] }}}
@@ -83,7 +83,7 @@ title: $:/plugins/mabuqian/time-block/view-template/under-event/components/butto
 <$button class="tc-btn-invisible tft-rpqn-common" tooltip="快速创建事件">
     <$action-createtiddler
       $basetitle={{{ [[$:/state/select-filter-search/tp-time_detail]get[text]] }}}
-      super-tag="time"
+      time-block="time"
       time_form="events"
       time_major={{{ [[$:/state/select-field-search/tp-time_major]get[text]] [[生活]] +[first[]] }}}
 	    time_specific={{{ [[$:/state/select-filter-search/tp-time_specific]get[text]] }}}

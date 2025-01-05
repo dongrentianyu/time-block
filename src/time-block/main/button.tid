@@ -5,7 +5,7 @@ code-body: yes
 <$button class="tc-btn-invisible tft-rpqn-common" tooltip="点击创建事件">
     <$action-createtiddler
       $basetitle={{$:/state/TP/PageLayout/create-tiddler-title}}
-      super-tag="time"
+      time-block="time"
       time_form="events"
       time_major="生活"
       time_record="正常记录"
@@ -44,7 +44,7 @@ tags_year_week={{{ [<year_weeks>addprefix[-]addprefix<day_years>] }}}
 <$button class="tc-btn-invisible tft-rpqn-common" tooltip="点击创建一天">
     <$action-createtiddler
       $basetitle=<<now "YYYY-0MM-0DD" >>
-      super-tag="days"
+      time-block="days"
       time_form="days"
       tags=<<tags>>
       day_years=<<day_years>>
@@ -67,7 +67,7 @@ tags_year_week={{{ [<year_weeks>addprefix[-]addprefix<day_years>] }}}
 <$button class="tc-btn-invisible tft-rpqn-common" tooltip="点击创建事件，在最后一次时间基础上">
     <$action-createtiddler
       $basetitle={{$:/state/TP/PageLayout/create-tiddler-title}}
-      super-tag="time"
+      time-block="time"
       time_form="events"
       time_major="生活"
       time_record="正常记录"
@@ -87,7 +87,7 @@ tags_year_week={{{ [<year_weeks>addprefix[-]addprefix<day_years>] }}}
 <$button class="tc-btn-invisible tft-rpqn-common" tooltip="快速创建事件">
     <$action-createtiddler
       $basetitle={{{ [[$:/state/select-filter-search/tp-time_specific]get[text]] }}}
-      super-tag="time"
+      time-block="time"
       time_form="events" 
       time_major={{{ [[$:/state/select-field-search/tp-time_major]get[text]] [[生活]] +[first[]] }}}
 	    time_specific={{{ [[$:/state/select-filter-search/tp-time_specific]get[text]] }}}
@@ -107,7 +107,7 @@ tags_year_week={{{ [<year_weeks>addprefix[-]addprefix<day_years>] }}}
 <$button class="tc-btn-invisible tft-rpqn-common" tooltip="快速创建事件">
     <$action-createtiddler
       $basetitle={{{ [[$:/state/select-filter-search/tp-time_detail]get[text]] }}}
-      super-tag="time"
+      time-block="time"
       time_form="events"
       time_major={{{ [[$:/state/select-field-search/tp-time_major]get[text]] [[生活]] +[first[]] }}}
 	    time_specific={{{ [[$:/state/select-filter-search/tp-time_specific]get[text]] }}}
@@ -134,7 +134,7 @@ title_year_week={{{ [<year_weeks>addprefix[-]addprefix<week_years>] }}}
     <$action-createtiddler
       $basetitle=<<title_year_week>>
       time_form="weeks"
-      super-tag="weeks"
+      time-block="weeks"
       tags=<<week_years>>
       week_years=<<week_years>>
       week_num=<<year_weeks>>
@@ -156,7 +156,7 @@ title_year_month={{{ [<year_months>addprefix[-]addprefix<month_years>] }}}
     <$action-createtiddler
       $basetitle=<<title_year_month>>
       time_form="months"
-      super-tag="months"
+      time-block="months"
       tags=<<month_years>>
       month_years=<<week_years>>
       month_num=<<year_months>>
@@ -185,7 +185,7 @@ year_days={{{ [<select-time>format:date[0ddddd]]  }}}
 <$button class="tc-btn-invisible tft-rpqn-common" tooltip="点击创建选择的一天">
     <$action-createtiddler
       $basetitle=<<select-now>>
-      super-tag="days"
+      time-block="days"
       time_form="days"
       tags=<<tags>>
       day_years=<<day_years>>
@@ -211,7 +211,7 @@ years=<<now "YYYY" >>
     <$action-createtiddler
       $basetitle=<<years>>
       time_form="years"
-      super-tag="years"
+      time-block="years"
       tags="TIME"
       years=<<years>>
      >
@@ -248,7 +248,7 @@ years=<<now "YYYY" >>
     <$action-createtiddler
       $basetitle={{$:/state/TP/PageLayout/create-tiddler-title}}
       time_form="specific"
-      super-tag="specific"
+      time-block="specific"
       specific_major="生活"
      >
      <<after-create-tiddler-without-parent>>
@@ -262,7 +262,7 @@ years=<<now "YYYY" >>
     <$action-createtiddler
       $basetitle={{$:/state/TP/PageLayout/create-tiddler-title}}
       time_form="detail"
-      super-tag="detail"
+      time-block="detail"
       detail_major="生活"
       detail_specific=""
      >

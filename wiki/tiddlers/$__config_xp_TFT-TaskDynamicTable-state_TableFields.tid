@@ -1,5 +1,5 @@
 created: 20230820203229926
-list: tbl-expand title created modified super-tag time_day time_end time_form time_major time_record time_start type
+list: tbl-expand title created modified time-block time_day time_end time_form time_major time_record time_start type
 modified: 20230826175459416
 order: tbl-expand title
 title: $:/config/xp/TFT-TaskDynamicTable-state/TableFields
