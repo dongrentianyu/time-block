@@ -1,0 +1,13 @@
+caption: {{$:/language/codemirror6/chineseEmbed/caption}}
+caption-zh: {{$:/language/codemirror6/zh/chineseEmbed/caption}}
+created: 20250105090804722
+description: {{$:/language/codemirror6/chineseEmbed/description}}
+description-zh: {{$:/language/codemirror6/zh/chineseEmbed/description}}
+id: 49
+modified: 20250105090804722
+settings-group: general
+settings-template: input-switch
+title: $:/config/codemirror-6/chineseEmbed
+type: text/vnd.tiddlywiki
+
+yes

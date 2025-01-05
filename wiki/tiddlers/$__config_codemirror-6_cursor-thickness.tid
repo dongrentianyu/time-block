@@ -1,0 +1,13 @@
+caption: {{$:/language/codemirror6/cursor-thickness/caption}}
+caption-zh: {{$:/language/codemirror6/zh/cursor-thickness/caption}}
+created: 20250105090754650
+description: {{$:/language/codemirror6/cursor-thickness/description}}
+description-zh: {{$:/language/codemirror6/zh/cursor-thickness/description}}
+id: 26
+modified: 20250105090754831
+settings-group: general
+settings-template: input
+title: $:/config/codemirror-6/cursor-thickness
+type: text/vnd.tiddlywiki
+
+3px

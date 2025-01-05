@@ -1,0 +1,13 @@
+caption: {{$:/language/codemirror6/fontsize/caption}}
+caption-zh: {{$:/language/codemirror6/zh/fontsize/caption}}
+created: 20250105090732846
+description: {{$:/language/codemirror6/fontsize/description}}
+description-zh: {{$:/language/codemirror6/zh/fontsize/description}}
+id: 15
+modified: 20250105090739292
+settings-group: general
+settings-template: input
+title: $:/config/codemirror-6/fontsize
+type: text/vnd.tiddlywiki
+
+28px

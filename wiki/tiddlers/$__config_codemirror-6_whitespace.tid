@@ -1,0 +1,13 @@
+caption: {{$:/language/codemirror6/whitespace/caption}}
+caption-zh: {{$:/language/codemirror6/zh/whitespace/caption}}
+created: 20250105090741962
+description: {{$:/language/codemirror6/whitespace/description}}
+description-zh: {{$:/language/codemirror6/zh/whitespace/description}}
+id: 17
+modified: 20250105090741962
+settings-group: general
+settings-template: input-switch
+title: $:/config/codemirror-6/whitespace
+type: text/vnd.tiddlywiki
+
+yes

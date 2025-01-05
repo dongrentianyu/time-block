@@ -1,7 +1,8 @@
 created: 20250105084749869
-modified: 20250105085611706
+modified: 20250105090958872
 tags: 
 title: Time Block
 type: text/vnd.tiddlywiki
 
-从
+从[[time-prints]]演变而来。去除了super-tag相关的功能，这个字段也更改为了time-block。实际上应该做更多的工作，但因为精力有限，只能在原来的基础修改了。
+
