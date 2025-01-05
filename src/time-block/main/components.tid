@@ -14,9 +14,9 @@ title: $:/plugins/mabuqian/time-block/main/components
    <<empty-detail>>&nbsp;&nbsp;
   </div>
   <div class="tp-sidebar-project-list-item" >
-  <<create-events>>&nbsp;&nbsp;
-  <<create-events-specific>>&nbsp;&nbsp;
-  <<create-events-detail>>&nbsp;&nbsp;
+   <<create-events>>&nbsp;&nbsp;
+   <<create-events-specific>>&nbsp;&nbsp;
+   <<create-events-detail>>&nbsp;&nbsp;
   </div>
  <div class="flex-col">
   <$transclude tiddler="$:/plugins/mabuqian/time-block/main/new-button" mode="block"/>
@@ -41,7 +41,7 @@ title: $:/plugins/mabuqian/time-block/main/components
 </div>
 
 
-<$let
+<!-- <$let
 years=<<now "YYYY" >>
 year_weeks=<<now "0WW" >>
 year_months=<<now "0MM" >>
@@ -52,4 +52,4 @@ title_year_month={{{ [<year_months>addprefix[-]addprefix<years>]  }}}
 <$link to=<<title_year_week>> > <<title_year_week>> </$link>&nbsp;&nbsp;
 <$link to=<<title_year_month>> > <<title_year_month>> </$link>&nbsp;&nbsp;
 <$link to=<<years>> > <<years>> </$link>&nbsp;&nbsp;
-</$let>
+</$let> -->

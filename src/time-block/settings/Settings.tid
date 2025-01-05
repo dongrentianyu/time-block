@@ -1,5 +1,5 @@
 title: $:/plugins/mabuqian/time-block/ControlPanel/Settings
-caption: Time Prints
+caption: Time Block
 tags: $:/tags/ControlPanel/SettingsTab $:/tags/TB/main/display-others
 
 在下面填写对应项目的值，在新建条目时可以进行选择
