@@ -11,8 +11,6 @@ title: $:/plugins/mabuqian/time-block/view-template/under-day/components/buttons
       time_record="正常记录"
       time_day=<<currentTiddler>>
       tags=<<currentTiddler>>
-      time_start={{{[tag<currentTiddler>has[time_end]sort[time_end]last[1]get[time_end]] }}}
-      time_end=<<now "0hh:0mm" >>
      >
      <<after-create-tiddler-without-parent>>
      </$action-createtiddler>
@@ -32,8 +30,6 @@ title: $:/plugins/mabuqian/time-block/view-template/under-day/components/buttons
       time_record="正常记录"
       time_day=<<currentTiddler>>
       tags=<<currentTiddler>>
-      time_start={{{ [tag<currentTiddler>has[time_end]sort[time_end]last[1]get[time_end]] }}}
-      time_end=<<now "0hh:0mm" >>
      >
      <<after-create-tiddler-without-parent>>
      </$action-createtiddler>

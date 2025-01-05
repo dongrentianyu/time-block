@@ -40,9 +40,6 @@ title: $:/plugins/mabuqian/time-block/main/components
 </div>
 </div>
 
-<$list filter="[has[time_end]sort[created]last[2]]">
-<$link><<currentTiddler>></$link>&nbsp;&nbsp;{{!!time_day}}&nbsp;&nbsp;{{!!time_end}}&nbsp;&nbsp;
-</$list>
 
 <$let
 years=<<now "YYYY" >>
